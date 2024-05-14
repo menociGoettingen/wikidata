@@ -7,7 +7,7 @@ Wikidata provides a API for searching and retrieving data from [wikidata.org](ht
 ## Installation
 
 ```sh
-composer require freearhey/wikidata
+composer require menoci/wikidata
 ```
 
 ## Usage

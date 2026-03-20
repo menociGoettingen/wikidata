@@ -50,6 +50,7 @@ class SparqlClient {
     $client = new Client();
 
     $response = $client->request( $this->method, self::SPARQL_ENDPOINT, [
+        'headers' => ['User-Agent' => 'Menoci/9.0 (menoci@medizin.uni-goettingen.de)'],
         'query' => [
           "query" => $query,
           "format" => "json",

@@ -37,7 +37,8 @@ class ApiClient
     $props = $props ? implode('|', $props) : null;
 
     $response = $this->client->get(self::API_ENDPOINT, [
-      'query' => [
+    'headers' => ['User-Agent' => 'Menoci/9.0 (menoci@medizin.uni-goettingen.de)'],  
+    'query' => [
         'action' => 'wbgetentities',
         'format' => 'json',
         'languages' => $lang,

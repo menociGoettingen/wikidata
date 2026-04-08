@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^8.0",
+        "tightenco/collect": "^9.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
